@@ -5,11 +5,11 @@ function FunctionalComponent() {
 	// retorna um objeto com jsx
 	return (
 		<div>
-			<h2>Primeiro componente</h2>
+			{/* aqui vai o que será renderizado no html */}
+			<h2>Primeiro Componente Funcional </h2>
 		</div>
 	);	
 }
 
 // exporta os dados
-
 export default FunctionalComponent;

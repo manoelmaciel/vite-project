@@ -1,23 +1,21 @@
 // componente pai 
-import { useState } from 'react'
 import './App.css'
-
+// importar o componente filho ...
+import FunctionalComponent from './components/FunctionalComponent'
 function App() {
-  const [count, setCount] = useState(10)
 
   return (
     <>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
         <h1>
-          HELLO, WORLD ... REACT!
-          <h6>Pra espantar toda e qualquer urucubaca!!!</h6>
+          Meu primeiro componente ... !
         </h1>
+        <FunctionalComponent />
+        
       </div>
     </>
   )
+
 }
 
 export default App
