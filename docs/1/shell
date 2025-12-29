@@ -1,0 +1,140 @@
+dom 28 dez 2025 17:45:36 
+
+  https://www.youtube.com/watch?v=ERflhpiMc1o
+  Curso de React JS para Iniciantes com Projeto 
+
+
+  dom 28 dez 2025 22:55:07 
+  
+maciel@worknote: batiste$ iniciar
+dom 28 dez 2025 17:33:04 -03
+/home/maciel/studies/fullstack/react/batiste
+total 8
+drwxrwxr-x 2 maciel maciel 4096 dez 28 17:33 .
+drwxrwxr-x 6 maciel maciel 4096 dez 28 17:32 ..
+-rw-rw-r-- 1 maciel maciel    0 dez 28 17:33 notes
+-rw-rw-r-- 1 maciel maciel    0 dez 28 17:33 shell
+-rw-rw-r-- 1 maciel maciel    0 dez 28 17:33 summary
+maciel@worknote: batiste$ 
+maciel@worknote: batiste$ 
+maciel@worknote: batiste$ rm dir docs
+rm: cannot remove 'dir': No such file or directory
+rm: cannot remove 'docs': No such file or directory
+maciel@worknote: batiste$ mkdir docs
+maciel@worknote: batiste$ 
+maciel@worknote: batiste$ ls
+1_components  docs  notes  shell  summary
+maciel@worknote: batiste$ ls
+1_components  docs  notes  shell  summary
+maciel@worknote: batiste$ cd 1_components/
+maciel@worknote: 1_components$ ls
+vite-project
+maciel@worknote: 1_components$ cd vite-project/
+maciel@worknote: vite-project$ 
+maciel@worknote: vite-project$ ls
+eslint.config.js  node_modules  package-lock.json  README.md  vite.config.js
+index.html        package.json  public             src
+maciel@worknote: vite-project$ mkdir docs
+maciel@worknote: vite-project$ cd docs/
+maciel@worknote: docs$ 
+maciel@worknote: docs$ iniciar
+dom 28 dez 2025 17:44:57 -03
+/home/maciel/studies/fullstack/react/batiste/1_components/vite-project/docs
+total 8
+drwxrwxr-x 2 maciel maciel 4096 dez 28 17:44 .
+drwxrwxr-x 6 maciel maciel 4096 dez 28 17:44 ..
+-rw-rw-r-- 1 maciel maciel    0 dez 28 17:44 notes
+-rw-rw-r-- 1 maciel maciel    0 dez 28 17:44 shell
+-rw-rw-r-- 1 maciel maciel    0 dez 28 17:44 summary
+maciel@worknote: docs$ 
+maciel@worknote: docs$ 
+maciel@worknote: docs$ finalizar
+total 20
+drwxrwxr-x 2 maciel maciel 4096 dez 28 22:53 .
+drwxrwxr-x 6 maciel maciel 4096 dez 28 17:44 ..
+-rw-rw-r-- 1 maciel maciel  155 dez 28 22:53 notes
+-rw-rw-r-- 1 maciel maciel  124 dez 28 17:46 shell
+-rw-rw-r-- 1 maciel maciel  153 dez 28 22:53 summary
+/home/maciel/studies/fullstack/react/batiste/1_components/vite-project/docs
+dom 28 dez 2025 22:55:41 -03
+maciel@worknote: docs$ 
+maciel@worknote: docs$ 
+
+
+__________________________________________
+dom 28 dez 2025 22:57:30 
+  
+  
+maciel@worknote: ~$ npm -v
+11.6.2
+maciel@worknote: ~$ node -v
+v23.11.0
+maciel@worknote: ~$ ^C
+maciel@worknote: ~$ 
+
+___________________________________________________
+dom 28 dez 2025 22:57:24 
+
+maciel@worknote: 1_components$ npx create-vite
+Need to install the following packages:
+create-vite@8.2.0
+Ok to proceed? (y) 
+
+│
+◇  Project name:
+│  vite-project
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+│
+◇  Use rolldown-vite (Experimental)?:
+│  No
+│
+◇  Install with npm and start now?
+│  Yes
+│
+◇  Scaffolding project in /home/maciel/studies/fullstack/react/batiste/1_components/vite-project...
+│
+◇  Installing dependencies with npm...
+
+added 156 packages, and audited 157 packages in 27s
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+│
+◇  Starting dev server...
+
+> vite-project@0.0.0 dev
+> vite
+
+
+  VITE v7.3.0  ready in 427 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+^C
+maciel@worknote: 1_components$ 
+maciel@worknote: 1_components$ 
+maciel@worknote: 1_components$ finalizar
+total 12
+drwxrwxr-x 3 maciel maciel 4096 dez 28 17:36 .
+drwxrwxr-x 4 maciel maciel 4096 dez 28 17:46 ..
+drwxrwxr-x 6 maciel maciel 4096 dez 28 17:44 vite-project
+/home/maciel/studies/fullstack/react/batiste/1_components
+dom 28 dez 2025 22:56:24 -03
+maciel@worknote: 1_components$ 
+maciel@worknote: 1_components$ 
+maciel@worknote: 1_components$ # BOM O BASTANTE
+maciel@worknote: 1_components$ 
+maciel@worknote: 1_components$ 
+
+
+
+
+  
