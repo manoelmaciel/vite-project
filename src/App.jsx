@@ -1,7 +1,9 @@
 // componente pai 
 import './App.css'
-// importar o componente filho ...
-import FunctionalComponent from './components/FunctionalComponent'
+// importar os componente filhos ...
+import FunctionalComponent from './components/FunctionalComponent';
+import ClassComponent from './components/ClassComponent';
+
 function App() {
 
   return (
@@ -11,6 +13,7 @@ function App() {
           Meu primeiro componente ... !
         </h1>
         <FunctionalComponent />
+        <ClassComponent />
         
       </div>
     </>

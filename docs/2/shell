@@ -1,0 +1,187 @@
+ter 30 dez 2025 12:15:01 
+
+maciel@worknote: vite-project$ iniciar
+date
+ter 30 dez 2025 11:46:11 -03
+pwd
+/home/maciel/studies/fullstack/react/batiste/1_components/vite-project
+ls
+docs		  node_modules	package-lock.json  shell    vite.config.js
+eslint.config.js  notes		public		   src
+index.html	  package.json	README.md	   summary
+maciel@worknote: vite-project$ 
+maciel@worknote: vite-project$ 
+maciel@worknote: vite-project$ # mais um tirozinho ...
+maciel@worknote: vite-project$ 
+maciel@worknote: vite-project$ npm start
+npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/maciel/.npm/_logs/2025-12-30T14_46_46_138Z-debug-0.log
+maciel@worknote: vite-project$ 
+maciel@worknote: vite-project$ 
+maciel@worknote: vite-project$ npm run dev
+
+> vite-project@0.0.0 dev
+> vite
+
+
+  VITE v7.3.0  ready in 549 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+11:47:24 AM [vite] (client) Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/maciel/studies/fullstack/react/batiste/1_components/vite-project/src/components/ClassComponent:7:33
+  5  |  		return (
+  6  |  			<div>
+  7  |  				<h2>Componente de Classe</h2>
+     |                                   ^
+  8  |  			</div>
+  9  |      )
+11:47:24 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/maciel/studies/fullstack/react/batiste/1_components/vite-project/src/components/ClassComponent:7:33
+  5  |  		return (
+  6  |  			<div>
+  7  |  				<h2>Componente de Classe</h2>
+     |                                   ^
+  8  |  			</div>
+  9  |      )
+      at TransformPluginContext._formatLog (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:28998:43)
+      at TransformPluginContext.error (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:28995:14)
+      at TransformPluginContext.transform (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:27081:10)
+      at async EnvironmentPluginContainer.transform (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:28796:14)
+      at async loadAndTransform (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:22669:26)
+      at async viteTransformMiddleware (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:24541:20)
+11:49:40 AM [vite] (client) Pre-transform error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/maciel/studies/fullstack/react/batiste/1_components/vite-project/src/components/ClassComponent:8:33
+  6  |  		return (
+  7  |  			<div>
+  8  |  				<h2>Componente de Classe</h2>
+     |                                   ^
+  9  |  			</div>
+  10 |      )
+11:49:40 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/maciel/studies/fullstack/react/batiste/1_components/vite-project/src/components/ClassComponent:8:33
+  6  |  		return (
+  7  |  			<div>
+  8  |  				<h2>Componente de Classe</h2>
+     |                                   ^
+  9  |  			</div>
+  10 |      )
+      at TransformPluginContext._formatLog (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:28998:43)
+      at TransformPluginContext.error (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:28995:14)
+      at TransformPluginContext.transform (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:27081:10)
+      at async EnvironmentPluginContainer.transform (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:28796:14)
+      at async loadAndTransform (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:22669:26)
+      at async viteTransformMiddleware (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:24541:20)
+11:50:38 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/maciel/studies/fullstack/react/batiste/1_components/vite-project/src/components/ClassComponent:8:33
+  6  |  		return (
+  7  |  			<div>
+  8  |  				<h2>Componente de Classe</h2>
+     |                                   ^
+  9  |  			</div>
+  10 |      )
+      at TransformPluginContext._formatLog (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:28998:43)
+      at TransformPluginContext.error (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:28995:14)
+      at TransformPluginContext.transform (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:27081:10)
+      at async EnvironmentPluginContainer.transform (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:28796:14)
+      at async loadAndTransform (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:22669:26)
+      at async viteTransformMiddleware (file:///home/maciel/studies/fullstack/react/batiste/1_components/vite-project/node_modules/vite/dist/node/chunks/config.js:24541:20) (x2)
+11:56:04 AM [vite] (client) Pre-transform error: Failed to load url /src/components/ClassComponent (resolved id: /home/maciel/studies/fullstack/react/batiste/1_components/vite-project/src/components/ClassComponent) in /home/maciel/studies/fullstack/react/batiste/1_components/vite-project/src/App.jsx. Does the file exist?
+12:12:23 PM [vite] (client) hmr update /src/App.jsx
+12:13:10 PM [vite] (client) hmr update /src/App.jsx (x2)
+
+  Embaçou por um tempo ...
+  
+    Foi só problema de digitação
+    A extensão .jsx faltando
+    E ClassComponent com C minúsculo    
+    Isso acontece
+    
+  Frequentemente!
+
+
+______________________________________________________________________________________________________
+seg 29 dez 2025 14:39:31 
+
+  maciel@worknote: vite-project$ iniciar
+date
+seg 29 dez 2025 09:28:12 -03
+pwd
+/home/maciel/studies/fullstack/react/batiste/1_components/vite-project
+ls
+docs		  node_modules	package-lock.json  shell    vite.config.js
+eslint.config.js  notes		public		   src
+index.html	  package.json	README.md	   summary
+maciel@worknote: vite-project$ 
+maciel@worknote: vite-project$ 
+maciel@worknote: vite-project$ mnpm run dev
+Command 'mnpm' not found, did you mean:
+  command 'npm' from deb npm (8.5.1~ds-1)
+Try: sudo apt install <deb name>
+maciel@worknote: vite-project$ npm run dev
+
+> vite-project@0.0.0 dev
+> vite
+
+
+  VITE v7.3.0  ready in 555 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+hhhhhhhhh
+9:37:10 AM [vite] (client) hmr update /src/App.jsx
+9:37:48 AM [vite] (client) hmr update /src/App.jsx (x2)
+9:38:25 AM [vite] (client) hmr update /src/App.jsx (x3)
+9:46:40 AM [vite] (client) hmr update /src/App.jsx (x4)
+10:01:51 AM [vite] (client) hmr update /src/App.jsx (x5)
+1:25:04 PM [vite] (client) hmr update /src/App.jsx (x6)
+1:26:06 PM [vite] (client) hmr update /src/App.jsx (x7)
+1:28:54 PM [vite] (client) hmr update /src/App.jsx (x8)
+1:29:30 PM [vite] (client) hmr update /src/components/FunctionalComponent.jsx
+1:34:36 PM [vite] (client) hmr update /src/components/FunctionalComponent.jsx (x2)
+
+^C              
+maciel@worknote: vite-project$ # Ok ... !
+maciel@worknote: vite-project$ 
+maciel@worknote: vite-project$ # BOM O BASTANTE !!!
+maciel@worknote: vite-project$ 
+maciel@worknote: vite-project$ FINALIZAR
+FINALIZAR: command not found
+maciel@worknote: vite-project$ finalizar
+total 152
+drwxrwxr-x   7 maciel maciel  4096 dez 29 13:33 .
+drwxrwxr-x   3 maciel maciel  4096 dez 28 17:36 ..
+drwxrwxr-x   4 maciel maciel  4096 dez 29 08:06 docs
+-rw-rw-r--   1 maciel maciel   758 dez 28 17:36 eslint.config.js
+drwxrwxr-x   7 maciel maciel  4096 dez 29 13:35 .git
+-rw-rw-r--   1 maciel maciel   253 dez 28 17:36 .gitignore
+-rw-rw-r--   1 maciel maciel   361 dez 28 17:36 index.html
+drwxrwxr-x 121 maciel maciel  4096 dez 28 17:37 node_modules
+-rw-rw-r--   1 maciel maciel     0 dez 28 23:06 notes
+-rw-rw-r--   1 maciel maciel   608 dez 28 17:36 package.json
+-rw-rw-r--   1 maciel maciel 98538 dez 29 00:09 package-lock.json
+drwxrwxr-x   2 maciel maciel  4096 dez 28 17:36 public
+-rw-rw-r--   1 maciel maciel  1336 dez 29 13:33 README.md
+-rw-rw-r--   1 maciel maciel     0 dez 28 23:06 shell
+drwxrwxr-x   4 maciel maciel  4096 dez 29 09:49 src
+-rw-rw-r--   1 maciel maciel     0 dez 28 23:06 summary
+-rw-rw-r--   1 maciel maciel   161 dez 28 17:36 vite.config.js
+/home/maciel/studies/fullstack/react/batiste/1_components/vite-project
+seg 29 dez 2025 14:38:57 -03
+maciel@worknote: vite-project$ 
+maciel@worknote: vite-project$ 
+maciel@worknote: vite-project$ 
