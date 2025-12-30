@@ -3,6 +3,7 @@ import './App.css'
 // importar os componente filhos ...
 import FunctionalComponent from './components/FunctionalComponent';
 import ClassComponent from './components/ClassComponent';
+import PropsExemple from './components/PropsExemple';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         </h1>
         <FunctionalComponent />
         <ClassComponent />
+        <PropsExemple nome="Maciel" idade={65}/>
         
       </div>
     </>
