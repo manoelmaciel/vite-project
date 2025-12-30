@@ -15,7 +15,7 @@ function App() {
         </h1>
         <FunctionalComponent />
         <ClassComponent />
-        <PropsExemple nome="Maciel" idade={65}/>
+        <PropsExemple nome="Maciel" idade={17}/>
         
       </div>
     </>
